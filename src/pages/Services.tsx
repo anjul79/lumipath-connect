@@ -312,8 +312,8 @@ const Services = () => {
                 </Link>
               </Button>
               <Button size="lg" variant="outline" asChild className="text-lg px-8 py-6 border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary">
-                <Link to="/about">
-                  Learn About Us
+                <Link to="/pricing">
+                  View Pricing
                 </Link>
               </Button>
             </div>
