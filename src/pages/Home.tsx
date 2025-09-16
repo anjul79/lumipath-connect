@@ -14,7 +14,7 @@ import {
   Lightbulb,
   Shield
 } from "lucide-react";
-import lumiPathLogo from "@/assets/lumipath-logo.png";
+import lumiPathLogo from "@/assets/lumipath-logo-transparent.png";
 
 const Home = () => {
   const stats = [
@@ -69,16 +69,16 @@ const Home = () => {
         <div className="absolute inset-0 bg-gradient-to-br from-primary via-secondary to-accent opacity-10"></div>
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="max-w-4xl mx-auto text-center">
-            <Badge variant="secondary" className="mb-4 px-4 py-2">
-              ✨ The Inclusive Education Partner
-            </Badge>
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6">
               <img 
                 src={lumiPathLogo} 
                 alt="LumiPath" 
-                className="h-16 md:h-24 lg:h-28 mx-auto mb-4 bg-transparent"
+                className="h-24 md:h-32 lg:h-40 mx-auto mb-4 bg-transparent"
                 style={{ filter: 'drop-shadow(0 0 0 transparent)' }}
               />
+              <Badge variant="secondary" className="mb-6 px-4 py-2">
+                ✨ The Inclusive Education Partner
+              </Badge>
               <br />
               <span className="text-3xl md:text-4xl lg:text-5xl">Every Child Deserves to Shine</span>
             </h1>

@@ -71,56 +71,117 @@ const Services = () => {
         "Documentation support"
       ],
       highlight: "Regulatory Excellence"
-    }
-  ];
-
-  const supportServices = [
+    },
     {
       icon: ClipboardList,
       title: "Administrative Support",
-      description: "Reduce teacher burden with specialized administrative assistance"
+      description: "Reduce teacher burden with specialized administrative assistance",
+      features: [
+        "Documentation management",
+        "Progress report generation",
+        "Parent communication support",
+        "Resource coordination"
+      ],
+      highlight: "Streamlined Operations"
     },
     {
       icon: GraduationCap,
       title: "Parent Education",
-      description: "Empowering families with knowledge and strategies for home support"
+      description: "Empowering families with knowledge and strategies for home support",
+      features: [
+        "Home learning strategies",
+        "Behavior management techniques",
+        "Educational advocacy training",
+        "Support group facilitation"
+      ],
+      highlight: "Family Empowerment"
     },
     {
       icon: FileText,
       title: "Resource Development",
-      description: "Custom teaching materials and assessment tools for your school"
+      description: "Custom teaching materials and assessment tools for your school",
+      features: [
+        "Adaptive learning materials",
+        "Assessment tools creation",
+        "Visual aid development",
+        "Digital resource library"
+      ],
+      highlight: "Customized Solutions"
     },
     {
       icon: Calendar,
       title: "Ongoing Consultation",
-      description: "Regular review meetings and continuous improvement support"
+      description: "Regular review meetings and continuous improvement support",
+      features: [
+        "Monthly progress reviews",
+        "Strategy refinement sessions",
+        "Problem-solving support",
+        "Best practice sharing"
+      ],
+      highlight: "Continuous Support"
     },
     {
       icon: Heart,
       title: "Personalized Programs & Therapies",
-      description: "Tailored intervention programs and therapeutic support for individual needs"
+      description: "Tailored intervention programs and therapeutic support for individual needs",
+      features: [
+        "Individual therapy sessions",
+        "Group intervention programs",
+        "Behavioral modification plans",
+        "Sensory integration therapy"
+      ],
+      highlight: "Individualized Care"
     },
     {
       icon: Trophy,
       title: "Sports & Talent Development",
-      description: "Identifying and nurturing special talents through structured sports and activity programs"
+      description: "Identifying and nurturing special talents through structured sports and activity programs",
+      features: [
+        "Talent identification programs",
+        "Adaptive sports activities",
+        "Creative arts development",
+        "Life skills training"
+      ],
+      highlight: "Holistic Development"
     },
     {
       icon: Home,
       title: "Exam Prep, Career Guidance & Homeschooling Support",
-      description: "Comprehensive support for alternative education pathways and career planning"
+      description: "Comprehensive support for alternative education pathways and career planning",
+      features: [
+        "Customized exam preparation",
+        "Career counseling sessions",
+        "Homeschool curriculum design",
+        "Transition planning support"
+      ],
+      highlight: "Future Ready"
     },
     {
       icon: MessageCircle,
       title: "Parent & Child Counselling, Workshops, Stress Management & More",
-      description: "Holistic family support through counselling, workshops, and stress management programs"
+      description: "Holistic family support through counselling, workshops, and stress management programs",
+      features: [
+        "Individual counselling sessions",
+        "Family therapy programs",
+        "Stress management workshops",
+        "Support group meetings"
+      ],
+      highlight: "Mental Wellness"
     },
     {
       icon: Monitor,
       title: "Education Delivery Model – Offline & Online Classes",
-      description: "Flexible learning delivery through hybrid offline and online classroom experiences"
+      description: "Flexible learning delivery through hybrid offline and online classroom experiences",
+      features: [
+        "Blended learning approach",
+        "Interactive online platforms",
+        "On-site classroom support",
+        "Technology integration training"
+      ],
+      highlight: "Flexible Learning"
     }
   ];
+
 
   const partnershipBenefits = [
     {
@@ -209,37 +270,6 @@ const Services = () => {
         </div>
       </section>
 
-      {/* Support Services */}
-      <section className="py-20 bg-muted/30">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">
-              Additional Support Services
-            </h2>
-            <p className="text-xl text-muted-foreground">
-              Comprehensive support ecosystem for sustainable success
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {supportServices.map((service, index) => (
-              <Card key={index} className="text-center border-0 bg-card/50 backdrop-blur hover:bg-card transition-colors">
-                <CardHeader>
-                  <div className="w-12 h-12 mx-auto mb-4 bg-gradient-to-br from-accent to-secondary rounded-full flex items-center justify-center">
-                    <service.icon className="h-6 w-6 text-white" />
-                  </div>
-                  <CardTitle className="text-lg">{service.title}</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <CardDescription className="text-sm">
-                    {service.description}
-                  </CardDescription>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* Partnership Benefits */}
       <section className="py-20">
