@@ -71,11 +71,13 @@ const Home = () => {
             <Badge variant="secondary" className="mb-4 px-4 py-2">
               ✨ The Inclusive Education Partner
             </Badge>
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              Every Child Deserves to Shine
+            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6">
+              <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">LumiPath</span>
+              <br />
+              <span className="text-3xl md:text-4xl lg:text-5xl">Every Child Deserves to Shine</span>
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto">
-              Empowering schools with expert special education solutions under the NIOS framework. 
+              Empowering <strong>schools</strong> and supporting <strong>parents</strong> with expert special education solutions under the NIOS framework. 
               Built by experienced educationists and IIM-IIT alumni.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
