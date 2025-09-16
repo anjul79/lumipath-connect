@@ -76,7 +76,8 @@ const Home = () => {
               <img 
                 src={lumiPathLogo} 
                 alt="LumiPath" 
-                className="h-20 md:h-28 lg:h-32 mx-auto mb-4"
+                className="h-16 md:h-24 lg:h-28 mx-auto mb-4 bg-transparent"
+                style={{ filter: 'drop-shadow(0 0 0 transparent)' }}
               />
               <br />
               <span className="text-3xl md:text-4xl lg:text-5xl">Every Child Deserves to Shine</span>
