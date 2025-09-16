@@ -14,7 +14,12 @@ import {
   ClipboardList,
   GraduationCap,
   FileText,
-  Calendar
+  Calendar,
+  Heart,
+  Trophy,
+  Home,
+  MessageCircle,
+  Monitor
 } from "lucide-react";
 
 const Services = () => {
@@ -89,6 +94,31 @@ const Services = () => {
       icon: Calendar,
       title: "Ongoing Consultation",
       description: "Regular review meetings and continuous improvement support"
+    },
+    {
+      icon: Heart,
+      title: "Personalized Programs & Therapies",
+      description: "Tailored intervention programs and therapeutic support for individual needs"
+    },
+    {
+      icon: Trophy,
+      title: "Sports & Talent Development",
+      description: "Identifying and nurturing special talents through structured sports and activity programs"
+    },
+    {
+      icon: Home,
+      title: "Exam Prep, Career Guidance & Homeschooling Support",
+      description: "Comprehensive support for alternative education pathways and career planning"
+    },
+    {
+      icon: MessageCircle,
+      title: "Parent & Child Counselling, Workshops, Stress Management & More",
+      description: "Holistic family support through counselling, workshops, and stress management programs"
+    },
+    {
+      icon: Monitor,
+      title: "Education Delivery Model – Offline & Online Classes",
+      description: "Flexible learning delivery through hybrid offline and online classroom experiences"
     }
   ];
 
@@ -191,7 +221,7 @@ const Services = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {supportServices.map((service, index) => (
               <Card key={index} className="text-center border-0 bg-card/50 backdrop-blur hover:bg-card transition-colors">
                 <CardHeader>
