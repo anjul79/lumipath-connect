@@ -100,7 +100,7 @@ const Contact = () => {
                         </div>
                         <div>
                           <h3 className="font-semibold text-foreground">Email Us</h3>
-                          <p className="text-muted-foreground">info@lumipath.education</p>
+                          <p className="text-muted-foreground">info@lumipath.in</p>
                         </div>
                       </div>
                     </CardContent>
