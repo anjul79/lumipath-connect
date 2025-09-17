@@ -1,19 +1,13 @@
 import { Link } from "react-router-dom";
 import { Mail, Phone, MapPin, BookOpen, Heart } from "lucide-react";
 import lumipathLogo from "@/assets/lumipath-logo.png";
-
 const Footer = () => {
-  return (
-    <footer className="bg-primary text-primary-foreground">
+  return <footer className="bg-primary text-primary-foreground">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="space-y-4">
-            <img 
-              src={lumipathLogo} 
-              alt="LumiPath Education Solutions" 
-              className="h-12 w-auto brightness-0 invert"
-            />
+            <img src={lumipathLogo} alt="LumiPath Education Solutions" className="h-12 w-auto brightness-0 invert" />
             <p className="text-primary-foreground/80 text-sm">
               Empowering every child to learn at their own pace and potential through inclusive education solutions.
             </p>
@@ -84,11 +78,11 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-accent" />
-                <span className="text-primary-foreground/80 text-sm">info@lumipath.education</span>
+                <span className="text-primary-foreground/80 text-sm">info@lumipath.in</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="h-5 w-5 text-accent" />
-                <span className="text-primary-foreground/80 text-sm">+91 98765 43210</span>
+                <span className="text-primary-foreground/80 text-sm">+91 8792380978</span>
               </div>
               <div className="flex items-start space-x-3">
                 <MapPin className="h-5 w-5 text-accent mt-0.5" />
@@ -107,8 +101,6 @@ const Footer = () => {
           </p>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
