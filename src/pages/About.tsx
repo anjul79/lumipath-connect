@@ -54,11 +54,11 @@ const About = () => {
   ];
 
   const milestones = [
-    { year: "2008", event: "Founder begins special education journey" },
-    { year: "2015", event: "Research collaboration with IIM-IIT alumni begins" },
-    { year: "2020", event: "NEP 2020 alignment and framework development" },
-    { year: "2023", event: "LumiPath Education Solutions officially launched" },
-    { year: "2024", event: "First school partnerships under NIOS framework" }
+    { year: "2010", event: "Founder begins special education journey" },
+    { year: "2024", event: "Research collaboration with IIM-IIT alumni begins" },
+    { year: "2024", event: "NEP 2020 alignment and framework development" },
+    { year: "2025", event: "LumiPath Education Solutions officially launched" },
+    { year: "2025", event: "First school partnerships under NIOS framework" }
   ];
 
   return (
