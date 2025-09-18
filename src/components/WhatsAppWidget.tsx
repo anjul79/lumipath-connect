@@ -5,6 +5,7 @@ const WhatsAppWidget = () => {
   const phoneNumber = "919739368638";
   const message = "Hello! I'm interested in LumiPath Education Solutions.";
   const userAgent = navigator.userAgent.toLowerCase();
+  console.log(userAgent);
   const encodedMessage = encodeURIComponent(message);
   const handleWhatsAppClick = () => {
     
