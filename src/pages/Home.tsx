@@ -49,15 +49,15 @@ const Home = () => {
 
   const testimonials = [
     {
-      name: "Principal Mehta",
-      role: "DPS Bangalore",
+      name: "Principal",
+      role: "Sai Global Bangalore",
       content: "LumiPath transformed our approach to inclusive education. Our teachers are now confident and equipped.",
       rating: 5
     },
     {
-      name: "Mrs. Priya Kumar",
+      name: "Vinod Nair",
       role: "Parent",
-      content: "My daughter with dyslexia is thriving thanks to LumiPath's structured support system.",
+      content: "As Aristotle once said, Those who educate children well are more to be honored than they who produce them for these only gave them life, those the art of living well. Ms. Kirti embodies this timeless wisdom in the most remarkable way. She is not only an enabler of learning but also a compassionate guide who consistently goes above and beyond to nurture the holistic well-being of every child under her care. A highly accomplished and seasoned educator, as well as an insightful life coach, Ms. Kirti brings with her an impressive record of excellence in the field of education management. Her teaching style is a rare blend of intellectual rigor, emotional intelligence, and heartfelt empathy qualities that are often missing in today's fast-paced educational landscape. In every sense, Ms. Kirti represents the ideal teacher, one who shapes not only bright minds but also compassionate, capable, and well-rounded individuals.",
       rating: 5
     }
   ];
