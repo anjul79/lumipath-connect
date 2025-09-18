@@ -6,7 +6,17 @@ const WhatsAppWidget = () => {
   const message = "Hello! I'm interested in LumiPath Education Solutions.";
   
   const handleWhatsAppClick = () => {
-    const whatsappUrl = `https://web.whatsapp.com/send?phone=${phoneNumber}?text=${encodeURIComponent(message)}`;
+    
+    let whatsappUrl;
+
+    if (/android|iphone|ipad|ipod/i.test(userAgent)) {
+      // 📱 Mobile → Open WhatsApp App
+      whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
+    } else {
+      // 💻 Desktop → Open WhatsApp Web
+      whatsappUrl = `https://web.whatsapp.com/send?phone=${phoneNumber}&text=${encodedMessage}`;
+    }
+    //const whatsappUrl = `https://web.whatsapp.com/send?phone=${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   };
 
