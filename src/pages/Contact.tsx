@@ -183,7 +183,7 @@ const Contact = () => {
                 <CardHeader>
                   <CardTitle className="text-2xl flex items-center">
                     <School className="h-6 w-6 mr-2 text-primary" />
-                    School Partnership Inquiry
+                    Contact Form
                   </CardTitle>
                   <CardDescription className="text-base">
                     Tell us about your school's needs and we'll customize our approach to support your inclusive education goals.
