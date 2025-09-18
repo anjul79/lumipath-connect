@@ -5,16 +5,17 @@ const WhatsAppWidget = () => {
   const phoneNumber = "918792380978";
   const message = "Hello! I'm interested in LumiPath Education Solutions.";
   const userAgent = navigator.userAgent.toLowerCase();
+  const encodedMessage = encodeURIComponent(message);
   const handleWhatsAppClick = () => {
     
-    if (/android|iphone|ipad|ipod/i.test(userAgent)) {
+    //if (/android|iphone|ipad|ipod/i.test(userAgent)) {
       // 📱 Mobile → Open WhatsApp App
-      whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
-    } else {
+      //whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
+    //} else {
       // 💻 Desktop → Open WhatsApp Web
-      whatsappUrl = `https://web.whatsapp.com/send?phone=${phoneNumber}&text=${message}`;
-    }
-    //const whatsappUrl = `https://web.whatsapp.com/send?phone=${phoneNumber}?text=${encodeURIComponent(message)}`;
+      //whatsappUrl = `https://web.whatsapp.com/send?phone=${phoneNumber}&text=${message}`;
+    //}
+    const whatsappUrl = `https://web.whatsapp.com/send?phone=${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   };
 
