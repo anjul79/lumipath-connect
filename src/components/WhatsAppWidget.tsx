@@ -6,7 +6,7 @@ const WhatsAppWidget = () => {
   const message = "Hello! I'm interested in LumiPath Education Solutions.";
   
   const handleWhatsAppClick = () => {
-    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://web.whatsapp.com/send?phone=${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   };
 
