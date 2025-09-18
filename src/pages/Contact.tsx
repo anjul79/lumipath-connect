@@ -184,7 +184,7 @@ const Contact = () => {
               </div>
             </div>
 
-            {/* Contact Form */}
+           /* {/* Contact Form */}
             <div className="lg:col-span-2">
               <Card className="border-0 bg-gradient-to-br from-card to-muted/10">
                 <CardHeader>
@@ -370,7 +370,24 @@ const Contact = () => {
                   </form>
                 </CardContent>
               </Card>
-            </div>
+            </div>*/
+
+<iframe
+      id="JotFormIFrame-252601563591456"
+      title="Modern Contact Form"
+      onload="window.parent.scrollTo(0,0)"
+      allowtransparency="true"
+      allow="geolocation; microphone; camera; fullscreen; payment"
+      src="https://form.jotform.com/252601563591456"
+      frameborder="0"
+      style="min-width:100%;max-width:100%;height:539px;border:none;"
+      scrolling="no"
+    >
+    </iframe>
+    <script src='https://cdn.jotfor.ms/s/umd/latest/for-form-embed-handler.js'></script>
+    <script>window.jotformEmbedHandler("iframe[id='JotFormIFrame-252601563591456']", "https://form.jotform.com/")</script>
+  
+         
           </div>
         </div>
       </section>
