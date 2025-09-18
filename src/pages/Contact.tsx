@@ -19,6 +19,7 @@ import {
   Send,
   CheckCircle
 } from "lucide-react";
+import lumiPathLogo from "@/assets/lumipath-logo-transparent.png";
 
 const Contact = () => {
   const { toast } = useToast();
@@ -68,6 +69,12 @@ const Contact = () => {
       <section className="py-20 lg:py-32 bg-gradient-to-r from-primary/5 to-secondary/5">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto text-center">
+            <img 
+              src={lumiPathLogo} 
+              alt="LumiPath" 
+              className="h-24 md:h-32 lg:h-40 mx-auto mb-4 bg-transparent"
+              style={{ filter: 'drop-shadow(0 0 0 transparent)' }}
+            />
             <Badge variant="secondary" className="mb-4 px-4 py-2">
               Let's Connect
             </Badge>

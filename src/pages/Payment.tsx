@@ -7,6 +7,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Badge } from "@/components/ui/badge";
 import { Shield, CreditCard, Lock, CheckCircle2, GraduationCap, MessageSquare } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
+import lumiPathLogo from "@/assets/lumipath-logo-transparent.png";
 
 // Global Razorpay type
 declare global {
@@ -209,8 +210,14 @@ const Payment = () => {
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-12">
+          <img 
+            src={lumiPathLogo} 
+            alt="LumiPath" 
+            className="h-24 md:h-32 lg:h-40 mx-auto mb-4 bg-transparent"
+            style={{ filter: 'drop-shadow(0 0 0 transparent)' }}
+          />
           <h1 className="text-4xl font-bold bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent mb-4">
-            Pay Fees
+            Fees
           </h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             Secure payment gateway for tuition fees and educational consultation services
