@@ -4,15 +4,15 @@ import { Button } from "@/components/ui/button";
 const WhatsAppWidget = () => {
   const phoneNumber = "918792380978";
   const message = "Hello! I'm interested in LumiPath Education Solutions.";
-  
+  const userAgent = navigator.userAgent.toLowerCase();
   const handleWhatsAppClick = () => {
     
     if (/android|iphone|ipad|ipod/i.test(userAgent)) {
       // 📱 Mobile → Open WhatsApp App
-      const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
+      whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
     } else {
       // 💻 Desktop → Open WhatsApp Web
-      const whatsappUrl = `https://web.whatsapp.com/send?phone=${phoneNumber}&text=${message}`;
+      whatsappUrl = `https://web.whatsapp.com/send?phone=${phoneNumber}&text=${message}`;
     }
     //const whatsappUrl = `https://web.whatsapp.com/send?phone=${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
