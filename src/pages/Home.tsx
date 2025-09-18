@@ -49,7 +49,7 @@ const Home = () => {
 
   const testimonials = [
     {
-      name: "Principal Sharma",
+      name: "Principal Mehta",
       role: "DPS Bangalore",
       content: "LumiPath transformed our approach to inclusive education. Our teachers are now confident and equipped.",
       rating: 5
