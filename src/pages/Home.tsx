@@ -92,11 +92,6 @@ const Home = () => {
                   Partner With Us <ArrowRight className="ml-2 h-5 w-5" />
                 </Link>
               </Button>
-              <Button size="lg" variant="outline" asChild className="text-lg px-8 py-6">
-                <Link to="/pricing">
-                  View Pricing
-                </Link>
-              </Button>
             </div>
           </div>
         </div>
@@ -273,11 +268,6 @@ const Home = () => {
                   Start Partnership
                 </Link>
               </Button>
-              /*<Button size="lg" variant="outline" asChild className="text-lg px-8 py-6 border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary">
-                <Link to="/pricing">
-                  View Pricing
-                </Link>
-              </Button>*/
             </div>
           </div>
         </div>
