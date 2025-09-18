@@ -7,14 +7,12 @@ const WhatsAppWidget = () => {
   
   const handleWhatsAppClick = () => {
     
-    let whatsappUrl;
-
     if (/android|iphone|ipad|ipod/i.test(userAgent)) {
       // 📱 Mobile → Open WhatsApp App
-      whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
+      const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
     } else {
       // 💻 Desktop → Open WhatsApp Web
-      whatsappUrl = `https://web.whatsapp.com/send?phone=${phoneNumber}&text=${encodedMessage}`;
+      const whatsappUrl = `https://web.whatsapp.com/send?phone=${phoneNumber}&text=${message}`;
     }
     //const whatsappUrl = `https://web.whatsapp.com/send?phone=${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
