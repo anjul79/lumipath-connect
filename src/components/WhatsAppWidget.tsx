@@ -4,8 +4,6 @@ import { Button } from "@/components/ui/button";
 const WhatsAppWidget = () => {
   const phoneNumber = "919739368638";
   const message = "Hello! I'm interested in LumiPath Education Solutions.";
-  const userAgent = navigator.userAgent.toLowerCase();
-  console.log(userAgent);
   const encodedMessage = encodeURIComponent(message);
   const handleWhatsAppClick = () => {
     
@@ -17,7 +15,7 @@ const WhatsAppWidget = () => {
       //whatsappUrl = `https://web.whatsapp.com/send?phone=${phoneNumber}&text=${message}`;
     //}
     //const whatsappUrl = `https://web.whatsapp.com/send?phone=${phoneNumber}?text=${encodeURIComponent(message)}`;
-    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
+    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   };
 
