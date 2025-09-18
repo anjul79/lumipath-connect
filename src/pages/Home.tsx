@@ -273,11 +273,11 @@ const Home = () => {
                   Start Partnership
                 </Link>
               </Button>
-              <Button size="lg" variant="outline" asChild className="text-lg px-8 py-6 border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary">
+              /*<Button size="lg" variant="outline" asChild className="text-lg px-8 py-6 border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary">
                 <Link to="/pricing">
                   View Pricing
                 </Link>
-              </Button>
+              </Button>*/
             </div>
           </div>
         </div>
