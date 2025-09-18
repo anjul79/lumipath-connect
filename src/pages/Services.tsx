@@ -36,17 +36,18 @@ const Services = () => {
       ],
       highlight: "Government Approved Framework"
     },
-    {
-      icon: Users,
-      title: "Teacher Training & Development",
-      description: "Comprehensive programs to transform teachers into special education champions",
+    
+      {
+      icon: Monitor,
+      title: "Education Delivery Model – Offline & Online Classes",
+      description: "Flexible learning delivery through hybrid offline and online classroom experiences",
       features: [
-        "Specialized learning disability training",
-        "Classroom adaptation techniques",
-        "Assistive technology integration",
-        "Ongoing mentorship support"
+        "Blended learning approach",
+        "Interactive online platforms",
+        "On-site classroom support",
+        "Technology integration training"
       ],
-      highlight: "15+ Years Expertise"
+      highlight: "Flexible Learning"
     },
     {
       icon: Target,
@@ -169,17 +170,17 @@ const Services = () => {
       highlight: "Mental Wellness"
     },
     {
-      icon: Monitor,
-      title: "Education Delivery Model – Offline & Online Classes",
-      description: "Flexible learning delivery through hybrid offline and online classroom experiences",
+      icon: Users,
+      title: "Teacher Training & Development",
+      description: "Comprehensive programs to transform teachers into special education champions",
       features: [
-        "Blended learning approach",
-        "Interactive online platforms",
-        "On-site classroom support",
-        "Technology integration training"
+        "Specialized learning disability training",
+        "Classroom adaptation techniques",
+        "Assistive technology integration",
+        "Ongoing mentorship support"
       ],
-      highlight: "Flexible Learning"
-    }
+      highlight: "15+ Years Expertise"
+    } 
   ];
 
 
