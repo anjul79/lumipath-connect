@@ -1,9 +1,9 @@
-name: 🚀 Deploy to Hostinger
+name: 🚀 Deploy to Hostinger (via FTP IP)
 
 on:
   push:
     branches:
-      - main   # Change to 'master' if your repo uses master branch
+      - main   # change to "master" if your repo uses master branch
 
 jobs:
   ftp-deploy:
@@ -16,8 +16,8 @@ jobs:
       - name: 📤 Deploy via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
-          server: ${{ secrets.FTP_SERVER }}
+          server: 145.79.210.130   # 🔹 Replace with your actual Hostinger FTP IP
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          port: ${{ secrets.FTP_PORT }}
+          port: 21
           server-dir: /public_html/
