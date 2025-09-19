@@ -17,7 +17,7 @@ jobs:
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
           server: 145.79.210.130   # 🔹 Replace with your actual Hostinger FTP IP
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
+          username: u205157316
+          password: Nonu27@top
           port: 21
           server-dir: /public_html/
