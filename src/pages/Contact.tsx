@@ -39,24 +39,48 @@ const Contact = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+    try {
+    const response = await fetch("/contact.php", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(formData),
+    });
+
+    if (response.ok) {
+      toast({
+        title: "Inquiry Submitted Successfully!",
+        description: "Thank you for your interest. Our team will contact you within 24 hours.",
+      });
+
+      // Reset form
+      setFormData({
+        inquiryType: "",
+        name: "",
+        email: "",
+        phone: "",
+        organization: "",
+        position: "",
+        studentsCount: "",
+        currentSupport: "",
+        specificNeeds: "",
+        message: "",
+        newsletter: false,
+      });
+    } else {
+      const error = await response.json();
+      toast({
+        title: "Submission Failed",
+        description: error?.error || "There was a problem sending your message. Please try again.",
+        variant: "destructive",
+      });
+    }
+  } catch (err) {
     toast({
-      title: "Inquiry Submitted Successfully!",
-      description: "Thank you for your interest. Our team will contact you within 24 hours.",
+      title: "Error",
+      description: "Something went wrong. Please try again later.",
+      variant: "destructive",
     });
-    // Reset form
-    setFormData({
-      inquiryType: "",
-      name: "",
-      email: "",
-      phone: "",
-      organization: "",
-      position: "",
-      studentsCount: "",
-      currentSupport: "",
-      specificNeeds: "",
-      message: "",
-      newsletter: false
-    });
+  }
   };
 
   const handleInputChange = (field: string, value: string | boolean) => {
