@@ -97,7 +97,7 @@ const Footer = () => {
 
         <div className="border-t border-primary-foreground/20 mt-8 pt-8 text-center">
           <p className="text-primary-foreground/60 text-sm">
-            © 2024 LumiPath Education Solutions. All rights reserved. Empowering inclusive education across India.
+            © 2025 LumiPath Education Solutions. All rights reserved. Empowering inclusive education across India.
           </p>
         </div>
       </div>
