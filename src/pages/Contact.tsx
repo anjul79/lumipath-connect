@@ -150,7 +150,12 @@ const Contact = () => {
                   <div className="w-full">
                     <iframe 
                       src="https://docs.google.com/forms/d/e/1FAIpQLSeIcgBGipEGZSYuLmJo-IxvXs7BuxpA2Um6BcGWl8L8R758mQ/viewform?embedded=true" 
-                      className="w-full h-[820px] border-0 rounded-lg"
+                      width="640" 
+                      height="927" 
+                      frameBorder="0" 
+                      marginHeight={0} 
+                      marginWidth={0}
+                      className="w-full border-0 rounded-lg"
                       title="Contact Form"
                     >
                       Loading…
