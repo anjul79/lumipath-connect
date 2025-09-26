@@ -1,91 +1,17 @@
-import { useState } from "react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
-import { Textarea } from "@/components/ui/textarea";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
-import { Checkbox } from "@/components/ui/checkbox";
 import { Badge } from "@/components/ui/badge";
-import { useToast } from "@/hooks/use-toast";
 import { 
   Mail, 
   Phone, 
   MapPin, 
   Clock,
   School,
-  Users,
   Heart,
-  Send,
   CheckCircle
 } from "lucide-react";
 import lumiPathLogo from "@/assets/lumipath-logo-transparent.png";
 
 const Contact = () => {
-  const { toast } = useToast();
-  const [formData, setFormData] = useState({
-    inquiryType: "",
-    name: "",
-    email: "",
-    phone: "",
-    organization: "",
-    position: "",
-    studentsCount: "",
-    currentSupport: "",
-    specificNeeds: "",
-    message: "",
-    newsletter: false
-  });
-
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    try {
-    const response = await fetch("https://lumipath.in/contact.php", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(formData),
-    });
-
-    if (response.ok) {
-      toast({
-        title: "Inquiry Submitted Successfully!",
-        description: "Thank you for your interest. Our team will contact you within 24 hours.",
-      });
-
-      // Reset form
-      setFormData({
-        inquiryType: "",
-        name: "",
-        email: "",
-        phone: "",
-        organization: "",
-        position: "",
-        studentsCount: "",
-        currentSupport: "",
-        specificNeeds: "",
-        message: "",
-        newsletter: false,
-      });
-    } else {
-      const error = await response.json();
-      toast({
-        title: "Submission Failed",
-        description: error?.error || "There was a problem sending your message. Please try again.",
-        variant: "destructive",
-      });
-    }
-  } catch (err) {
-    toast({
-      title: "Error",
-      description: "Something went wrong. Please try again later.",
-      variant: "destructive",
-    });
-  }
-  };
-
-  const handleInputChange = (field: string, value: string | boolean) => {
-    setFormData(prev => ({ ...prev, [field]: value }));
-  };
 
   return (
     <div className="min-h-screen">
@@ -221,177 +147,15 @@ const Contact = () => {
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
-                  <form onSubmit={handleSubmit} className="space-y-6">
-                    
-                    {/* Inquiry Type */}
-                    <div className="space-y-2">
-                      <Label htmlFor="inquiryType">Inquiry Type *</Label>
-                      <Select 
-                        value={formData.inquiryType} 
-                        onValueChange={(value) => handleInputChange("inquiryType", value)}
-                        required
-                      >
-                        <SelectTrigger>
-                          <SelectValue placeholder="Select inquiry type" />
-                        </SelectTrigger>
-                        <SelectContent>
-                          <SelectItem value="school-partnership">School Partnership</SelectItem>
-                          <SelectItem value="parent-inquiry">Parent Inquiry</SelectItem>
-                          <SelectItem value="teacher-training">Teacher Training</SelectItem>
-                          <SelectItem value="consultation">General Consultation</SelectItem>
-                        </SelectContent>
-                      </Select>
-                    </div>
-
-                    {/* Personal Information */}
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                      <div className="space-y-2">
-                        <Label htmlFor="name">Full Name *</Label>
-                        <Input
-                          id="name"
-                          value={formData.name}
-                          onChange={(e) => handleInputChange("name", e.target.value)}
-                          placeholder="Your full name"
-                          required
-                        />
-                      </div>
-                      <div className="space-y-2">
-                        <Label htmlFor="email">Email Address *</Label>
-                        <Input
-                          id="email"
-                          type="email"
-                          value={formData.email}
-                          onChange={(e) => handleInputChange("email", e.target.value)}
-                          placeholder="your.email@school.edu"
-                          required
-                        />
-                      </div>
-                    </div>
-
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                      <div className="space-y-2">
-                        <Label htmlFor="phone">Phone Number *</Label>
-                        <Input
-                          id="phone"
-                          type="tel"
-                          value={formData.phone}
-                          onChange={(e) => handleInputChange("phone", e.target.value)}
-                          placeholder="+91 98765 43210"
-                          required
-                        />
-                      </div>
-                      <div className="space-y-2">
-                        <Label htmlFor="position">Your Position</Label>
-                        <Input
-                          id="position"
-                          value={formData.position}
-                          onChange={(e) => handleInputChange("position", e.target.value)}
-                          placeholder="Principal, Director, Parent, etc."
-                        />
-                      </div>
-                    </div>
-
-                    {/* Organization Information */}
-                    <div className="space-y-2">
-                      <Label htmlFor="organization">School/Organization Name *</Label>
-                      <Input
-                        id="organization"
-                        value={formData.organization}
-                        onChange={(e) => handleInputChange("organization", e.target.value)}
-                        placeholder="Name of your school or organization"
-                        required
-                      />
-                    </div>
-
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                      <div className="space-y-2">
-                        <Label htmlFor="studentsCount">Number of Students</Label>
-                        <Select 
-                          value={formData.studentsCount} 
-                          onValueChange={(value) => handleInputChange("studentsCount", value)}
-                        >
-                          <SelectTrigger>
-                            <SelectValue placeholder="Select student count range" />
-                          </SelectTrigger>
-                          <SelectContent>
-                            <SelectItem value="under-100">Under 100</SelectItem>
-                            <SelectItem value="100-500">100 - 500</SelectItem>
-                            <SelectItem value="500-1000">500 - 1,000</SelectItem>
-                            <SelectItem value="1000-plus">1,000+</SelectItem>
-                          </SelectContent>
-                        </Select>
-                      </div>
-                      <div className="space-y-2">
-                        <Label htmlFor="currentSupport">Current Special Education Support</Label>
-                        <Select 
-                          value={formData.currentSupport} 
-                          onValueChange={(value) => handleInputChange("currentSupport", value)}
-                        >
-                          <SelectTrigger>
-                            <SelectValue placeholder="Current support level" />
-                          </SelectTrigger>
-                          <SelectContent>
-                            <SelectItem value="none">No specialized support</SelectItem>
-                            <SelectItem value="basic">Basic support available</SelectItem>
-                            <SelectItem value="partial">Some trained teachers</SelectItem>
-                            <SelectItem value="comprehensive">Comprehensive program exists</SelectItem>
-                          </SelectContent>
-                        </Select>
-                      </div>
-                    </div>
-
-                    {/* Specific Needs */}
-                    <div className="space-y-2">
-                      <Label htmlFor="specificNeeds">Specific Areas of Interest</Label>
-                      <Select 
-                        value={formData.specificNeeds} 
-                        onValueChange={(value) => handleInputChange("specificNeeds", value)}
-                      >
-                        <SelectTrigger>
-                          <SelectValue placeholder="Select primary area of interest" />
-                        </SelectTrigger>
-                        <SelectContent>
-                          <SelectItem value="dyslexia">Dyslexia Support</SelectItem>
-                          <SelectItem value="adhd">ADHD Management</SelectItem>
-                          <SelectItem value="autism">Autism Spectrum Support</SelectItem>
-                          <SelectItem value="general-ld">General Learning Disabilities</SelectItem>
-                          <SelectItem value="teacher-training">Teacher Training Focus</SelectItem>
-                          <SelectItem value="policy-compliance">Policy & Compliance</SelectItem>
-                          <SelectItem value="comprehensive">Comprehensive Program</SelectItem>
-                        </SelectContent>
-                      </Select>
-                    </div>
-
-                    {/* Message */}
-                    <div className="space-y-2">
-                      <Label htmlFor="message">Tell Us More About Your Needs</Label>
-                      <Textarea
-                        id="message"
-                        value={formData.message}
-                        onChange={(e) => handleInputChange("message", e.target.value)}
-                        placeholder="Please share any specific challenges, goals, or questions you have about implementing inclusive education at your school..."
-                        rows={4}
-                      />
-                    </div>
-
-                    {/* Newsletter Subscription */}
-                    <div className="flex items-center space-x-2">
-                      <Checkbox
-                        id="newsletter"
-                        checked={formData.newsletter}
-                        onCheckedChange={(checked) => handleInputChange("newsletter", checked as boolean)}
-                      />
-                      <Label htmlFor="newsletter" className="text-sm">
-                        Subscribe to our newsletter for special education insights and updates
-                      </Label>
-                    </div>
-
-                    {/* Submit Button */}
-                    <Button type="submit" size="lg" className="w-full text-lg">
-                      <Send className="mr-2 h-5 w-5" />
-                      Send Inquiry
-                    </Button>
-                  </form>
+                  <div className="w-full">
+                    <iframe 
+                      src="https://docs.google.com/forms/d/e/1FAIpQLSeIcgBGipEGZSYuLmJo-IxvXs7BuxpA2Um6BcGWl8L8R758mQ/viewform?embedded=true" 
+                      className="w-full h-[820px] border-0 rounded-lg"
+                      title="Contact Form"
+                    >
+                      Loading…
+                    </iframe>
+                  </div>
                 </CardContent>
               </Card>
             </div>
