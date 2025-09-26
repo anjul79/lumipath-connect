@@ -149,9 +149,9 @@ const Contact = () => {
                 <CardContent>
                   <div className="w-full">
                     <iframe 
-                      src="https://docs.google.com/forms/d/e/1FAIpQLSeIcgBGipEGZSYuLmJo-IxvXs7BuxpA2Um6BcGWl8L8R758mQ/viewform?embedded=true" 
+                      src="https://docs.google.com/forms/d/e/1FAIpQLSfL1DDiWsR112H5_C0VSRT4OhNH18aFPmEVk3rTptlVDpBGwg/viewform?embedded=true" 
                       width="640" 
-                      height="927" 
+                      height="852" 
                       frameBorder="0" 
                       marginHeight={0} 
                       marginWidth={0}
