@@ -71,7 +71,7 @@ const Contact = () => {
                         </div>
                         <div>
                           <h3 className="font-semibold text-foreground">Call Us</h3>
-                          <p className="text-muted-foreground">+91 99860 19010</p>
+                          <p className="text-muted-foreground">+91 87923 80978</p>
                         </div>
                       </div>
                     </CardContent>
