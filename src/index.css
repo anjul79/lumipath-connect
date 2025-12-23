@@ -115,3 +115,44 @@ All colors MUST be HSL.
     @apply bg-background text-foreground;
   }
 }
+
+/* Floating CTA Animations */
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+@keyframes glow-pulse {
+  0%, 100% {
+    box-shadow: 0 0 20px hsl(32, 95%, 44%, 0.6), 0 0 40px hsl(32, 95%, 44%, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 30px hsl(32, 95%, 44%, 0.8), 0 0 60px hsl(32, 95%, 44%, 0.5);
+  }
+}
+
+@keyframes bounce-subtle {
+  0%, 100% {
+    transform: translateY(-50%) translateX(0);
+  }
+  50% {
+    transform: translateY(-50%) translateX(-4px);
+  }
+}
+
+.floating-cta {
+  background: linear-gradient(
+    90deg,
+    hsl(32, 95%, 44%) 0%,
+    hsl(25, 95%, 53%) 25%,
+    hsl(32, 95%, 50%) 50%,
+    hsl(25, 95%, 53%) 75%,
+    hsl(32, 95%, 44%) 100%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 2s linear infinite, glow-pulse 1.5s ease-in-out infinite, bounce-subtle 2s ease-in-out infinite;
+}
