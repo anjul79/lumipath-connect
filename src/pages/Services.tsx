@@ -227,7 +227,7 @@ const Services = () => {
               Transforming Special Education
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-8">
-              Complete ecosystem support for schools to implement inclusive education effectively under the NIOS framework
+              Complete ecosystem support in schools to implement inclusive education effectively under the NIOS framework
             </p>
           </div>
         </div>
@@ -241,7 +241,7 @@ const Services = () => {
               Our Core Services
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Four pillars of support that make inclusive education successful in your school
+              Four pillars of support that make inclusive education successful
             </p>
           </div>
 
