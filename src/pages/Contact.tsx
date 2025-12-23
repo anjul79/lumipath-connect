@@ -187,7 +187,7 @@ const Contact = () => {
             {[
               {
                 question: "How quickly can we start the partnership?",
-                answer: "We can begin initial assessment within 2 weeks of signing the partnership agreement. Full implementation typically takes 3-6 months depending on school size."
+                answer: "We can begin initial assessment within 2 weeks of signing the partnership agreement. Full implementation typically takes 3-6 months depending on school size and individual needs."
               },
               {
                 question: "What is the investment for parents / schools?",
