@@ -71,7 +71,15 @@ const Contact = () => {
                     </CardContent>
                   </Card>
 
-                  <Card className="border-0 bg-gradient-to-br from-secondary/5 to-accent/5">
+                  <Card 
+                    className="border-0 bg-gradient-to-br from-secondary/5 to-accent/5 cursor-pointer hover:shadow-lg transition-shadow"
+                    onClick={() => {
+                      const phoneNumber = "918792380978";
+                      const message = "Hello! I'm interested in LumiPath Education Solutions.";
+                      const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+                      window.open(whatsappUrl, '_blank');
+                    }}
+                  >
                     <CardContent className="p-6">
                       <div className="flex items-center space-x-4">
                         <div className="w-12 h-12 bg-gradient-to-br from-secondary to-accent rounded-full flex items-center justify-center">
