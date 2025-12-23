@@ -207,7 +207,7 @@ const Contact = () => {
                   <CardTitle className="text-lg">{faq.question}</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-muted-foreground">{faq.answer}</p>
+                  <p className="text-muted-foreground text-justify">{faq.answer}</p>
                 </CardContent>
               </Card>
             ))}
