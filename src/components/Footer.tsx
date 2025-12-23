@@ -75,7 +75,15 @@ const Footer = () => {
                 <Mail className="h-5 w-5 text-accent" />
                 <span className="text-primary-foreground/80 text-sm">info@lumipath.in</span>
               </div>
-              <div className="flex items-center space-x-3">
+              <div 
+                className="flex items-center space-x-3 cursor-pointer hover:text-accent transition-colors"
+                onClick={() => {
+                  const phoneNumber = "918792380978";
+                  const message = "Hello! I'm interested in LumiPath Education Solutions.";
+                  const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+                  window.open(whatsappUrl, '_blank');
+                }}
+              >
                 <Phone className="h-5 w-5 text-accent" />
                 <span className="text-primary-foreground/80 text-sm">+91 87923 80978</span>
               </div>
