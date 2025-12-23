@@ -138,7 +138,7 @@ const Home = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-16">
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">Why Patents / Schools Choose LumiPath</h2>
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">Why Parent / Schools Choose LumiPath</h2>
               <p className="text-xl text-muted-foreground">
                 Schools cannot handle special education alone. We provide the expertise and support they need.
               </p>
@@ -158,10 +158,8 @@ const Home = () => {
                 <div className="flex items-start space-x-3">
                   <CheckCircle className="h-6 w-6 text-accent mt-1 flex-shrink-0" />
                   <div>
-                    <h3 className="font-semibold text-lg mb-1">Reduced Teacher Burden</h3>
-                    <p className="text-muted-foreground">
-                      Address the 26:1 student-teacher ratio challenge with specialized support
-                    </p>
+                    <h3 className="font-semibold text-lg mb-1">Reduced Student : Teacher Ration </h3>
+                    <p className="text-muted-foreground">6:1 student-teacher ratio with specialized support</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
@@ -234,7 +232,7 @@ const Home = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
-              Ready to Transform Education at Your School?
+              Ready to Transform your child’s education with LumPath!
             </h2>
             <p className="text-xl mb-8 text-primary-foreground/90">
               Join us in creating an inclusive learning environment where every child can thrive. Let's discuss how
