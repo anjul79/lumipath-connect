@@ -1,8 +1,7 @@
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 
-// Replace with your Google Apps Script Web App URL after deployment
-const TRACKING_SCRIPT_URL = 'YOUR_GOOGLE_APPS_SCRIPT_URL';
+const TRACKING_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxVLbklG6I8V-vt8I0E6rTSwk6vGR21IdDLHd9tQMtjv5mPOJGW14TVDnKpC7aw8xugBA/exec';
 
 const PageViewTracker = () => {
   const location = useLocation();
@@ -19,8 +18,7 @@ const PageViewTracker = () => {
           screenHeight: window.screen.height,
         };
 
-        // Only track if the URL is configured
-        if (TRACKING_SCRIPT_URL !== 'YOUR_GOOGLE_APPS_SCRIPT_URL') {
+        if (TRACKING_SCRIPT_URL) {
           await fetch(TRACKING_SCRIPT_URL, {
             method: 'POST',
             mode: 'no-cors',
