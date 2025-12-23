@@ -287,7 +287,7 @@ const Services = () => {
               Partnership Impact
             </h2>
             <p className="text-xl text-muted-foreground">
-              Measurable outcomes that transform your school's special education capability
+              Measurable outcomes that transform school's ecosystem
             </p>
           </div>
 
