@@ -4,6 +4,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Badge } from "@/components/ui/badge";
 import { BookOpen, Users, Award, Heart, ArrowRight, CheckCircle, Star, Target, Lightbulb, Shield } from "lucide-react";
 import lumiPathLogo from "@/assets/lumipath-logo-transparent.png";
+import SEO from "@/components/SEO";
 
 const Home = () => {
   const stats = [
@@ -53,8 +54,13 @@ const Home = () => {
   ];
 
   return (
-    <div className="min-h-screen">
-      {/* Hero Section */}
+    <>
+      <SEO 
+        title="Home"
+        description="LumiPath Education Solutions - Empowering schools with expert special education solutions under NIOS framework. 15+ years expertise in learning difficulties, dyslexia, ADHD support in Bangalore, India."
+        canonicalUrl="https://lumipath.in/"
+      />
+      <div className="min-h-screen">
       <section className="relative py-20 lg:py-32 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-primary via-secondary to-accent opacity-10"></div>
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative">
@@ -249,6 +255,7 @@ const Home = () => {
         </div>
       </section>
     </div>
+    </>
   );
 };
 
