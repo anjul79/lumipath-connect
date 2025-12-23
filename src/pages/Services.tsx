@@ -319,7 +319,7 @@ const Services = () => {
               Implementation Process
             </h2>
             <p className="text-xl text-muted-foreground">
-              A structured approach to implementing inclusive education at your school
+              A structured approach to implementing inclusive education at our partnered school
             </p>
           </div>
 
@@ -329,17 +329,17 @@ const Services = () => {
                 {
                   step: "01",
                   title: "Assessment & Planning",
-                  description: "Comprehensive evaluation of current capabilities and needs assessment"
+                  description: "Comprehensive evaluation of current capabilities and assessment needs"
                 },
                 {
                   step: "02", 
                   title: "Team Training",
-                  description: "Intensive teacher training program and resource development"
+                  description: "Group allocation and IEP Designing"
                 },
                 {
                   step: "03",
                   title: "Implementation",
-                  description: "Gradual rollout with ongoing support and monitoring"
+                  description: "Gradual IEP rollout and monitoring"
                 },
                 {
                   step: "04",
@@ -370,21 +370,14 @@ const Services = () => {
               Ready to Start Your Inclusive Education Journey?
             </h2>
             <p className="text-xl mb-8 text-primary-foreground/90">
-              Partner with LumiPath to transform your school into an inclusive education leader. 
+              Partner with LumiPath to transform your environment into an inclusive education. 
               Let's discuss how our services can be customized for your specific needs.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" variant="secondary" asChild className="text-lg px-8 py-6">
-                <Link to="/contact">
-                  Schedule Consultation <ArrowRight className="ml-2 h-5 w-5" />
-                </Link>
-              </Button>
-              <Button size="lg" variant="outline" asChild className="text-lg px-8 py-6 border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary">
-                <Link to="/pricing">
-                  View Pricing
-                </Link>
-              </Button>
-            </div>
+            <Button size="lg" variant="secondary" asChild className="text-lg px-8 py-6">
+              <Link to="/contact">
+                Schedule Consultation <ArrowRight className="ml-2 h-5 w-5" />
+              </Link>
+            </Button>
           </div>
         </div>
       </section>
