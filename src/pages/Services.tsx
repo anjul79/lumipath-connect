@@ -53,7 +53,7 @@ const Services = () => {
     {
       icon: Target,
       title: "Learning Assessment & Intervention", 
-      description: "Early identification and structured support for children with learning disabilities",
+      description: "Early identification and structured support for children with learning difficulties",
       features: [
         "Comprehensive LD screening",
         "Personalized intervention plans",
@@ -175,7 +175,7 @@ const Services = () => {
       title: "Teacher Training & Development",
       description: "Comprehensive programs to transform teachers into special education champions",
       features: [
-        "Specialized learning disability training",
+        "Specialized learning difficulty training",
         "Classroom adaptation techniques",
         "Assistive technology integration",
         "Ongoing mentorship support"
@@ -193,7 +193,7 @@ const Services = () => {
     },
     {
       title: "Improved Student Outcomes", 
-      description: "Better learning outcomes for the 8-10% with learning disabilities",
+      description: "Better learning outcomes for the 8-10% with learning difficulties",
       metric: "3x Success Rate"
     },
     {

@@ -55,7 +55,7 @@ const Footer = () => {
             <ul className="space-y-2 text-sm">
               <li className="flex items-center space-x-2">
                 <BookOpen className="h-4 w-4 text-accent" />
-                <span className="text-primary-foreground/80">Learning Disabilities Support</span>
+                <span className="text-primary-foreground/80">Learning Difficulties Support</span>
               </li>
               <li className="flex items-center space-x-2">
                 <BookOpen className="h-4 w-4 text-accent" />

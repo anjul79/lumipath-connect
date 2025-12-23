@@ -7,7 +7,7 @@ import lumiPathLogo from "@/assets/lumipath-logo-transparent.png";
 
 const Home = () => {
   const stats = [
-    { number: "8-10%", label: "Children have learning disabilities", source: "Indian Pediatrics, 2018" },
+    { number: "8-10%", label: "Children have learning difficulties", source: "Indian Pediatrics, 2018" },
     { number: "15+", label: "Years of expertise", source: "Experienced leadership" },
     { number: "<1%", label: "Get structured support", source: "NCERT Reports" },
     { number: "29%", label: "School dropouts cite academic difficulties", source: "MHRD Report" },
@@ -26,7 +26,7 @@ const Home = () => {
     },
     {
       icon: Target,
-      title: "Learning Disability Assessment",
+      title: "Learning Difficulty Assessment",
       description: "Early identification and structured intervention plans for children with specific learning needs.",
     },
     {
