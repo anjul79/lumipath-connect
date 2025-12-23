@@ -3,10 +3,12 @@ import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import lumipathLogo from "@/assets/lumipath-logo.png";
+import { useContactFormDialog } from "@/contexts/ContactFormDialogContext";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const location = useLocation();
+  const { openContactDialog } = useContactFormDialog();
 
   const navigation = [
     { name: "Home", href: "/" },
@@ -16,6 +18,11 @@ const Header = () => {
   ];
 
   const isActive = (path: string) => location.pathname === path;
+
+  const handleGetStarted = () => {
+    setIsMenuOpen(false);
+    openContactDialog();
+  };
 
   return (
     <header className="sticky top-0 z-50 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 border-b">
@@ -45,8 +52,8 @@ const Header = () => {
                 {item.name}
               </Link>
             ))}
-            <Button variant="default" asChild>
-              <Link to="/contact">Get Started</Link>
+            <Button variant="default" onClick={openContactDialog}>
+              Get Started
             </Button>
           </nav>
 
@@ -82,10 +89,8 @@ const Header = () => {
                 </Link>
               ))}
               <div className="px-3 py-2">
-                <Button variant="default" asChild className="w-full">
-                  <Link to="/contact" onClick={() => setIsMenuOpen(false)}>
-                    Get Started
-                  </Link>
+                <Button variant="default" className="w-full" onClick={handleGetStarted}>
+                  Get Started
                 </Button>
               </div>
             </div>

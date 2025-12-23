@@ -1,7 +1,6 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { Link } from "react-router-dom";
 import { 
   BookOpen, 
   Users, 
@@ -23,8 +22,11 @@ import {
 } from "lucide-react";
 import lumiPathLogo from "@/assets/lumipath-logo-transparent.png";
 import SEO from "@/components/SEO";
+import { useContactFormDialog } from "@/contexts/ContactFormDialogContext";
 
 const Services = () => {
+  const { openContactDialog } = useContactFormDialog();
+
   const coreServices = [
     {
       icon: BookOpen,
@@ -378,10 +380,8 @@ const Services = () => {
               Partner with LumiPath to transform your environment into an inclusive education. 
               Let's discuss how our services can be customized for your specific needs.
             </p>
-            <Button size="lg" variant="secondary" asChild className="text-lg px-8 py-6">
-              <Link to="/contact">
-                Schedule Consultation <ArrowRight className="ml-2 h-5 w-5" />
-              </Link>
+            <Button size="lg" variant="secondary" className="text-lg px-8 py-6" onClick={openContactDialog}>
+              Schedule Consultation <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
           </div>
         </div>

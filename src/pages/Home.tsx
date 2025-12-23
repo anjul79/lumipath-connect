@@ -1,12 +1,14 @@
-import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { BookOpen, Users, Award, Heart, ArrowRight, CheckCircle, Star, Target, Lightbulb, Shield } from "lucide-react";
 import lumiPathLogo from "@/assets/lumipath-logo-transparent.png";
 import SEO from "@/components/SEO";
+import { useContactFormDialog } from "@/contexts/ContactFormDialogContext";
 
 const Home = () => {
+  const { openContactDialog } = useContactFormDialog();
+
   const stats = [
     { number: "8-10%", label: "Children have learning difficulties", source: "Indian Pediatrics, 2018" },
     { number: "15+", label: "Years of expertise", source: "Experienced leadership" },
@@ -83,10 +85,8 @@ const Home = () => {
               solutions under the NIOS framework. Built by experienced educationists and IIM-IIT alumni.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" asChild className="text-lg px-8 py-6">
-                <Link to="/contact">
-                  Admission <ArrowRight className="ml-2 h-5 w-5" />
-                </Link>
+              <Button size="lg" className="text-lg px-8 py-6" onClick={openContactDialog}>
+                Admission <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
             </div>
           </div>
@@ -238,17 +238,15 @@ const Home = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
-              Ready to Transform your child’s education with LumPath!
+              Ready to Transform your child's education with LumPath!
             </h2>
             <p className="text-xl mb-8 text-primary-foreground/90">
               Join us in creating an inclusive learning environment where every child can thrive.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" variant="secondary" asChild className="text-lg px-8 py-6">
-                <Link to="/contact">
-                  <Heart className="mr-2 h-5 w-5" />
-                  Admission
-                </Link>
+              <Button size="lg" variant="secondary" className="text-lg px-8 py-6" onClick={openContactDialog}>
+                <Heart className="mr-2 h-5 w-5" />
+                Admission
               </Button>
             </div>
           </div>
