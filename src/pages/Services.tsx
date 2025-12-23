@@ -55,7 +55,7 @@ const Services = () => {
       title: "Learning Assessment & Intervention", 
       description: "Early identification and structured support for children with learning difficulties",
       features: [
-        "Comprehensive LD screening",
+        "Psycho educational assessment",
         "Personalized intervention plans",
         "Regular progress monitoring",
         "Parent guidance sessions"
@@ -76,7 +76,7 @@ const Services = () => {
     },
     {
       icon: ClipboardList,
-      title: "Administrative Support",
+      title: "Administrative Support for School",
       description: "Reduce teacher burden with specialized administrative assistance",
       features: [
         "Documentation management",
@@ -101,7 +101,7 @@ const Services = () => {
     {
       icon: FileText,
       title: "Resource Development",
-      description: "Custom teaching materials and assessment tools for your school",
+      description: "Custom teaching materials",
       features: [
         "Adaptive learning materials",
         "Assessment tools creation",
