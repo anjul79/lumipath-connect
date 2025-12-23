@@ -40,7 +40,7 @@ const Contact = () => {
               Start Your Partnership Journey
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-8">
-              Looking for special education support at our partnered school or via online learning? We're here to help build an inclusive and empowering learning environment.
+              Looking for special education support at our partnered school or via online learning?
             </p>
           </div>
         </div>
