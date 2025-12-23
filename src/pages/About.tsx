@@ -102,11 +102,11 @@ const About = () => {
                 <div className="space-y-3">
                   <div className="flex items-center space-x-3">
                     <CheckCircle className="h-5 w-5 text-accent" />
-                    <span>Bridge the gap in special education support</span>
+                    <span>Bridge the learning gap</span>
                   </div>
                   <div className="flex items-center space-x-3">
                     <CheckCircle className="h-5 w-5 text-accent" />
-                    <span>Empower teachers with specialized training</span>
+                    <span>Empower students with Individual Education Plan (IEP)</span>
                   </div>
                   <div className="flex items-center space-x-3">
                     <CheckCircle className="h-5 w-5 text-accent" />
@@ -119,12 +119,12 @@ const About = () => {
             <div className="bg-gradient-to-br from-secondary/10 to-accent/10 p-8 rounded-2xl">
               <h3 className="text-2xl font-bold mb-4 text-primary">Our Vision</h3>
               <p className="text-lg text-muted-foreground mb-6">
-                A world where learning disabilities are not barriers but different pathways to success, 
+                A world where neuro diversity is not a barrier but different pathways to success, 
                 supported by equipped educators and inclusive school environments.
               </p>
               <div className="bg-card p-6 rounded-xl border">
                 <p className="text-foreground font-medium italic">
-                  "When schools have the right support, every child can reach their full potential—regardless of how they learn."
+                  "Given the right support, every child can reach their full potential- regardless of how they learn."
                 </p>
               </div>
             </div>
