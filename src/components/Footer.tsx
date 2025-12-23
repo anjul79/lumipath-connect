@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Mail, Phone, MapPin, BookOpen, Heart } from "lucide-react";
+import { Mail, Phone, MapPin, BookOpen, Heart, Instagram } from "lucide-react";
 import lumipathLogo from "@/assets/lumipath-logo.png";
 const Footer = () => {
   return <footer className="bg-primary text-primary-foreground">
@@ -86,6 +86,15 @@ const Footer = () => {
                   Bangalore, India
                 </span>
               </div>
+              <a 
+                href="https://www.instagram.com/lumipath_edu?igsh=MWVqbDc1Y2Zsb2NoNQ%3D%3D&utm_source=qr" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="flex items-center space-x-3 hover:text-accent transition-colors"
+              >
+                <Instagram className="h-5 w-5 text-accent" />
+                <span className="text-primary-foreground/80 text-sm">Follow us on Instagram</span>
+              </a>
             </div>
           </div>
         </div>
