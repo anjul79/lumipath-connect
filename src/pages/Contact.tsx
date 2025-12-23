@@ -199,7 +199,7 @@ const Contact = () => {
               },
               {
                 question: "How do you ensure compliance with government policies?",
-                answer: "We stay updated with all relevant policies (NEP 2020, RPwD Act 2016, NIOS guidelines) and provide documentation support to ensure your school meets all regulatory requirements."
+                answer: "We stay updated with all relevant policies (NEP 2020, RPwD Act 2016, NIOS guidelines) and provide documentation support to ensure our partnered school / students meets all regulatory requirements."
               }
             ].map((faq, index) => (
               <Card key={index} className="border-0 bg-card/50 backdrop-blur">
