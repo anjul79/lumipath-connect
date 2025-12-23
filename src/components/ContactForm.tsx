@@ -29,7 +29,6 @@ const contactSchema = z.object({
   name: z.string().trim().min(1, "Name is required").max(100, "Name must be less than 100 characters"),
   email: z.string().trim().email("Please enter a valid email").max(255, "Email must be less than 255 characters"),
   phone: z.string().trim().min(10, "Please enter a valid phone number").max(15, "Phone number is too long"),
-  schoolName: z.string().trim().min(1, "School name is required").max(200, "School name must be less than 200 characters"),
   role: z.string().min(1, "Please select your role"),
   message: z.string().trim().min(10, "Message must be at least 10 characters").max(1000, "Message must be less than 1000 characters"),
 });
@@ -47,7 +46,6 @@ const ContactForm = () => {
       name: "",
       email: "",
       phone: "",
-      schoolName: "",
       role: "",
       message: "",
     },
@@ -61,7 +59,6 @@ const ContactForm = () => {
       formData.append("name", data.name);
       formData.append("email", data.email);
       formData.append("phone", data.phone);
-      formData.append("schoolName", data.schoolName);
       formData.append("role", data.role);
       formData.append("message", data.message);
       formData.append("timestamp", new Date().toISOString());
@@ -147,20 +144,6 @@ const ContactForm = () => {
                 <FormLabel>Phone Number *</FormLabel>
                 <FormControl>
                   <Input type="tel" placeholder="+91 98765 43210" {...field} />
-                </FormControl>
-                <FormMessage />
-              </FormItem>
-            )}
-          />
-
-          <FormField
-            control={form.control}
-            name="schoolName"
-            render={({ field }) => (
-              <FormItem>
-                <FormLabel>School Name *</FormLabel>
-                <FormControl>
-                  <Input placeholder="Your school's name" {...field} />
                 </FormControl>
                 <FormMessage />
               </FormItem>
