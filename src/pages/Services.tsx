@@ -32,7 +32,7 @@ const Services = () => {
       features: [
         "Flexible curriculum adaptation",
         "Alternative assessment methods", 
-        "Individualized education plans",
+        "Individualized Education Plans (IEP)",
         "Progress tracking systems"
       ],
       highlight: "Government Approved Framework"
