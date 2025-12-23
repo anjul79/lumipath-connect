@@ -39,8 +39,10 @@ const Contact = () => {
             <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
               Start Your Partnership Journey
             </h1>
-            <p className="text-xl md:text-2xl text-muted-foreground mb-8">
-              Looking for special education support at our partnered school or via online learning? We're here to help build an inclusive and empowering learning environment.
+            <p className="text-xl md:text-2xl text-muted-foreground mb-8 text-center">
+              Looking for special education support at our partnered school or via online learning?
+              <br />
+              We're here to help build an inclusive and empowering learning environment.
             </p>
           </div>
         </div>
