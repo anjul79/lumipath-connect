@@ -156,17 +156,29 @@ const Contact = () => {
                 <CardContent>
                   <div className="w-full">
                     <iframe 
-                      src="https://docs.google.com/forms/d/e/1FAIpQLSfL1DDiWsR112H5_C0VSRT4OhNH18aFPmEVk3rTptlVDpBGwg/viewform?embedded=true" 
-                      width="640" 
-                      height="852" 
+                      src="https://docs.google.com/forms/d/e/1FAIpQLSerUcNBUal7kTA_KGJGTEetlCt_QOCLYsEZ9LtFnlHtlIa1Kg/viewform?embedded=true" 
+                      width="100%" 
+                      height="954" 
                       frameBorder="0" 
                       marginHeight={0} 
                       marginWidth={0}
                       className="w-full border-0 rounded-lg"
-                      title="Contact Form"
+                      title="LumiPath Contact Form"
+                      loading="lazy"
                     >
                       Loading…
                     </iframe>
+                    <p className="text-sm text-muted-foreground mt-4 text-center">
+                      Having trouble viewing the form?{" "}
+                      <a 
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSerUcNBUal7kTA_KGJGTEetlCt_QOCLYsEZ9LtFnlHtlIa1Kg/viewform" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="text-primary underline"
+                      >
+                        Open form in new tab
+                      </a>
+                    </p>
                   </div>
                 </CardContent>
               </Card>
