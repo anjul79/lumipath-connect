@@ -237,14 +237,14 @@ const About = () => {
                 The Challenge We Address
               </h2>
               <p className="text-xl text-primary-foreground/90">
-                Understanding the scale of learning disability support needed in India
+                Understanding the scale of learning difficulty support needed in India
               </p>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
               <div className="text-center">
                 <div className="text-4xl md:text-5xl font-bold mb-2">8-10%</div>
-                <div className="text-primary-foreground/90">Children have learning disabilities</div>
+                <div className="text-primary-foreground/90">Children have learning difficulties</div>
                 <div className="text-sm text-primary-foreground/70 mt-1">Indian Pediatrics, 2018</div>
               </div>
               <div className="text-center">
