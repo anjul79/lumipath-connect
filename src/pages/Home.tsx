@@ -235,8 +235,7 @@ const Home = () => {
               Ready to Transform your child’s education with LumPath!
             </h2>
             <p className="text-xl mb-8 text-primary-foreground/90">
-              Join us in creating an inclusive learning environment where every child can thrive. Let's discuss how
-              LumiPath can support your school's journey.
+              Join us in creating an inclusive learning environment where every child can thrive.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" variant="secondary" asChild className="text-lg px-8 py-6">
