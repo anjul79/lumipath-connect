@@ -164,7 +164,7 @@ const Home = () => {
                 <div className="flex items-start space-x-3">
                   <CheckCircle className="h-6 w-6 text-accent mt-1 flex-shrink-0" />
                   <div>
-                    <h3 className="font-semibold text-lg mb-1">Reduced Student : Teacher Ration </h3>
+                    <h3 className="font-semibold text-lg mb-1">Reduced Student : Teacher Ratio</h3>
                     <p className="text-muted-foreground">6:1 student-teacher ratio with specialized support</p>
                   </div>
                 </div>
