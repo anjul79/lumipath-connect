@@ -37,8 +37,7 @@ const Services = () => {
       ],
       highlight: "Government Approved Framework"
     },
-    
-      {
+    {
       icon: Monitor,
       title: "Education Delivery Model – Offline & Online Classes",
       description: "Flexible learning delivery through hybrid offline and online classroom experiences",
@@ -49,6 +48,54 @@ const Services = () => {
         "Technology integration training"
       ],
       highlight: "Flexible Learning"
+    },
+    {
+      icon: Trophy,
+      title: "Sports & Talent Development",
+      description: "Identifying and nurturing special talents through structured sports and activity programs",
+      features: [
+        "Talent identification programs",
+        "Adaptive sports activities",
+        "Creative arts development",
+        "Life skills training"
+      ],
+      highlight: "Holistic Development"
+    },
+    {
+      icon: Heart,
+      title: "Personalized Programs & Therapies",
+      description: "Tailored intervention programs and therapeutic support for individual needs",
+      features: [
+        "Individual therapy sessions",
+        "Group intervention programs",
+        "Behavioral modification plans",
+        "Sensory integration therapy"
+      ],
+      highlight: "Individualized Care"
+    },
+    {
+      icon: Home,
+      title: "Exam Prep, Career Guidance & Homeschooling Support",
+      description: "Comprehensive support for alternative education pathways and career planning",
+      features: [
+        "Customized exam preparation",
+        "Career counseling sessions",
+        "Homeschool curriculum design",
+        "Transition planning support"
+      ],
+      highlight: "Future Ready"
+    },
+    {
+      icon: MessageCircle,
+      title: "Parent & Child Counselling, Workshops, Stress Management & More",
+      description: "Holistic family support through counselling, workshops, and stress management programs",
+      features: [
+        "Individual counselling sessions",
+        "Family therapy programs",
+        "Stress management workshops",
+        "Support group meetings"
+      ],
+      highlight: "Mental Wellness"
     },
     {
       icon: Target,
@@ -121,54 +168,6 @@ const Services = () => {
         "Best practice sharing"
       ],
       highlight: "Continuous Support"
-    },
-    {
-      icon: Heart,
-      title: "Personalized Programs & Therapies",
-      description: "Tailored intervention programs and therapeutic support for individual needs",
-      features: [
-        "Individual therapy sessions",
-        "Group intervention programs",
-        "Behavioral modification plans",
-        "Sensory integration therapy"
-      ],
-      highlight: "Individualized Care"
-    },
-    {
-      icon: Trophy,
-      title: "Sports & Talent Development",
-      description: "Identifying and nurturing special talents through structured sports and activity programs",
-      features: [
-        "Talent identification programs",
-        "Adaptive sports activities",
-        "Creative arts development",
-        "Life skills training"
-      ],
-      highlight: "Holistic Development"
-    },
-    {
-      icon: Home,
-      title: "Exam Prep, Career Guidance & Homeschooling Support",
-      description: "Comprehensive support for alternative education pathways and career planning",
-      features: [
-        "Customized exam preparation",
-        "Career counseling sessions",
-        "Homeschool curriculum design",
-        "Transition planning support"
-      ],
-      highlight: "Future Ready"
-    },
-    {
-      icon: MessageCircle,
-      title: "Parent & Child Counselling, Workshops, Stress Management & More",
-      description: "Holistic family support through counselling, workshops, and stress management programs",
-      features: [
-        "Individual counselling sessions",
-        "Family therapy programs",
-        "Stress management workshops",
-        "Support group meetings"
-      ],
-      highlight: "Mental Wellness"
     },
     {
       icon: Users,
