@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page Not Found - LumiPath Education Solutions</title>
+  <script>
+    // Redirect to index.html with the current path
+    // This handles cases where .htaccess redirect might not work
+    const path = window.location.pathname + window.location.search + window.location.hash;
+    window.location.replace('/' + (path !== '/404.html' ? '?redirect=' + encodeURIComponent(path) : ''));
+  </script>
+  <noscript>
+    <meta http-equiv="refresh" content="0; url=/">
+  </noscript>
+</head>
+<body>
+  <p>Redirecting...</p>
+</body>
+</html>
