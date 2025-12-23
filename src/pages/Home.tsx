@@ -79,7 +79,7 @@ const Home = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" asChild className="text-lg px-8 py-6">
                 <Link to="/contact">
-                  Partner With Us <ArrowRight className="ml-2 h-5 w-5" />
+                  Admission <ArrowRight className="ml-2 h-5 w-5" />
                 </Link>
               </Button>
             </div>
@@ -138,7 +138,7 @@ const Home = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-16">
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">Why Schools Choose LumiPath</h2>
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">Why Patents / Schools Choose LumiPath</h2>
               <p className="text-xl text-muted-foreground">
                 Schools cannot handle special education alone. We provide the expertise and support they need.
               </p>
@@ -158,7 +158,7 @@ const Home = () => {
                 <div className="flex items-start space-x-3">
                   <CheckCircle className="h-6 w-6 text-accent mt-1 flex-shrink-0" />
                   <div>
-                    <h3 className="font-semibold text-lg mb-1">Reduced Teacher : Student Ratio </h3>
+                    <h3 className="font-semibold text-lg mb-1">Reduced Teacher Burden</h3>
                     <p className="text-muted-foreground">
                       Address the 26:1 student-teacher ratio challenge with specialized support
                     </p>
