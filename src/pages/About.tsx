@@ -97,8 +97,7 @@ const About = () => {
                   Our Mission
                 </h2>
                 <p className="text-lg text-muted-foreground mb-6">
-                  To partner with schools as their learning-disability-focused partner under the NIOS framework, 
-                  empowering every child to learn at their own pace and potential.
+                  To partner with schools and parents to facilitate under the NIOS Framework.
                 </p>
                 <div className="space-y-3">
                   <div className="flex items-center space-x-3">
