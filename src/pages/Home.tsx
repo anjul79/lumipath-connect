@@ -58,9 +58,10 @@ const Home = () => {
   return (
     <>
       <SEO 
-        title="Home"
-        description="LumiPath Education Solutions - Empowering schools with expert special education solutions under NIOS framework. 15+ years expertise in learning difficulties, dyslexia, ADHD support in Bangalore, India."
+        title="Home - Every Child Deserves to Shine"
+        description="LumiPath Education Solutions empowers schools and parents with expert special education under NIOS framework. 15+ years expertise in learning difficulties, dyslexia, ADHD support. IIM-IIT alumni partnership in Bangalore."
         canonicalUrl="https://lumipath.in/"
+        keywords="LumiPath, special education Bangalore, NIOS framework, learning difficulties support, inclusive education India, dyslexia ADHD support"
       />
       <div className="min-h-screen">
       <section className="relative py-20 lg:py-32 overflow-hidden">

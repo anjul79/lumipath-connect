@@ -11,9 +11,9 @@ interface SEOProps {
 }
 
 const defaultMeta = {
-  title: "LumiPath Education Solutions - Inclusive Special Education Partnership",
-  description: "Empowering schools with expert special education solutions under NIOS framework. 15+ years expertise, IIM-IIT alumni partnership. Support for learning difficulties, dyslexia, ADHD, autism in Bangalore, India.",
-  keywords: "special education, inclusive education, learning disabilities, learning difficulties, NIOS framework, teacher training, dyslexia, ADHD, autism support, NEP 2020, school partnership, special needs education, Bangalore, India",
+  title: "LumiPath Education Solutions - Every Child Deserves to Shine",
+  description: "LumiPath empowers schools and parents with expert special education solutions under NIOS framework. 15+ years expertise in learning difficulties, dyslexia, ADHD support. IIM-IIT alumni partnership in Bangalore, India.",
+  keywords: "LumiPath, special education, inclusive education, learning disabilities, learning difficulties, NIOS framework, teacher training, dyslexia, ADHD, autism support, NEP 2020, school partnership, special needs education, Bangalore, India, IEP, individualized education plan",
   ogImage: "/lumipath-og-image.jpg",
   siteUrl: "https://lumipath.in"
 };

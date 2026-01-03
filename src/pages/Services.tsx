@@ -213,9 +213,10 @@ const Services = () => {
   return (
     <>
       <SEO 
-        title="Our Services"
-        description="Comprehensive special education services - NIOS framework partnership, teacher training, learning assessment, therapy programs, career guidance, and inclusive education consulting in Bangalore."
+        title="Our Services - Transforming Special Education"
+        description="LumiPath offers comprehensive special education services - NIOS framework partnership, teacher training, learning assessment, personalized therapy programs, career guidance, and inclusive education consulting."
         canonicalUrl="https://lumipath.in/services"
+        keywords="LumiPath services, NIOS framework partnership, teacher training special education, learning assessment India, IEP programs, inclusive education consulting Bangalore"
       />
       <div className="min-h-screen">
       <section className="py-20 lg:py-32 bg-gradient-to-r from-primary/5 to-secondary/5">
