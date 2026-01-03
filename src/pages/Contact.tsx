@@ -187,6 +187,10 @@ const Contact = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
             {[
               {
+                question: "What is NIOS (National Institute of Open Schooling)?",
+                answer: "NIOS (National Institute of Open Schooling) is a government-approved board recognized in India and worldwide, equivalent to CBSE, ICSE, and State Boards. It offers a flexible education system, allowing learners to take board exams twice a year and choose subjects as per their learning needs."
+              },
+              {
                 question: "How quickly can we start the partnership?",
                 answer: "We can begin initial assessment within 2 weeks of signing the partnership agreement. Full implementation typically takes 3-6 months depending on school size and individual needs."
               },
