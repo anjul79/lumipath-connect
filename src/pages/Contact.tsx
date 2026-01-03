@@ -18,9 +18,10 @@ const Contact = () => {
   return (
     <>
       <SEO 
-        title="Contact Us"
-        description="Contact LumiPath Education Solutions for special education partnerships, learning difficulty support, and inclusive education consulting in Bangalore, India. Get in touch today!"
+        title="Contact Us - Start Your Partnership Journey"
+        description="Contact LumiPath Education Solutions for special education partnerships and admissions. Get expert support for learning difficulties, NIOS framework guidance, and inclusive education consulting in Bangalore."
         canonicalUrl="https://lumipath.in/contact"
+        keywords="contact LumiPath, special education partnership, admission inquiry, learning difficulties support Bangalore, NIOS school partnership India"
       />
       <div className="min-h-screen">
         {/* Hero Section */}

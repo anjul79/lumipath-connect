@@ -66,9 +66,10 @@ const About = () => {
   return (
     <>
       <SEO 
-        title="About Us"
-        description="Learn about LumiPath Education Solutions - Founded by experienced educationists with IIM-IIT alumni partnership. 15+ years expertise in special education and learning difficulty support."
+        title="About Us - Our Mission & Story"
+        description="LumiPath Education Solutions was born from belief that every child deserves to shine. Founded by experienced educationists with IIM-IIT alumni partnership. 15+ years expertise in special education."
         canonicalUrl="https://lumipath.in/about"
+        keywords="LumiPath about, special education experts, IIM IIT alumni education, inclusive education mission, learning difficulties expertise Bangalore"
       />
       <div className="min-h-screen">
       <section className="py-20 lg:py-32 bg-gradient-to-r from-primary/5 to-secondary/5">
