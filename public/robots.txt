@@ -1,5 +1,5 @@
 # LumiPath Education Solutions - Robots.txt
-# https://lumipath.in
+# https://www.lumipath.in
 
 User-agent: Googlebot
 Allow: /
@@ -19,4 +19,4 @@ User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://lumipath.in/sitemap.xml
+Sitemap: https://www.lumipath.in/sitemap.xml
