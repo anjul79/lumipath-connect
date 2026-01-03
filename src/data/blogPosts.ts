@@ -13,6 +13,224 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "5",
+    slug: "best-cbse-schools-bangalore-2025",
+    title: "Top 25 CBSE Schools in Bangalore 2025: Complete List with Fees & Admission Details",
+    excerpt: "Looking for the best CBSE schools in Bangalore? Here's a comprehensive list of top-rated CBSE affiliated schools with admission process, fees, and facilities.",
+    content: `
+## Introduction
+
+Bangalore, the Silicon Valley of India, is home to some of the finest CBSE schools in the country. With over 500 CBSE-affiliated schools, choosing the right one for your child can be challenging. This comprehensive guide lists the top CBSE schools in Bangalore for 2025.
+
+## Top CBSE Schools in Bangalore
+
+### 1. Delhi Public School (DPS), Bangalore East
+- **Location:** Sulikunte, Dommasandra
+- **Established:** 2012
+- **Grades:** Pre-KG to Class 12
+- **Fee Range:** ₹1,50,000 - ₹2,00,000 per annum
+- **Highlights:** Sprawling campus, excellent sports facilities, strong academic record
+
+### 2. National Public School (NPS), Indiranagar
+- **Location:** Indiranagar
+- **Established:** 1971
+- **Grades:** Nursery to Class 12
+- **Fee Range:** ₹1,20,000 - ₹1,80,000 per annum
+- **Highlights:** Pioneer in education, excellent infrastructure, outstanding board results
+
+### 3. Bishop Cotton Boys' School
+- **Location:** St. Mark's Road
+- **Established:** 1865
+- **Grades:** Class 1 to Class 12
+- **Fee Range:** ₹80,000 - ₹1,20,000 per annum
+- **Highlights:** Heritage school, strong alumni network, holistic development
+
+### 4. Bangalore International School
+- **Location:** Hennur Bagalur Road
+- **Established:** 2000
+- **Grades:** Pre-KG to Class 12
+- **Fee Range:** ₹3,00,000 - ₹5,00,000 per annum
+- **Highlights:** International curriculum alongside CBSE, modern facilities
+
+### 5. Inventure Academy
+- **Location:** Whitefield
+- **Established:** 2005
+- **Grades:** Pre-KG to Class 12
+- **Fee Range:** ₹2,50,000 - ₹4,00,000 per annum
+- **Highlights:** Innovation-focused, entrepreneurship programs, excellent labs
+
+### 6. Greenwood High International School
+- **Location:** Sarjapur Road
+- **Established:** 2006
+- **Grades:** Pre-KG to Class 12
+- **Fee Range:** ₹1,80,000 - ₹2,80,000 per annum
+- **Highlights:** Eco-friendly campus, strong sports program, global exposure
+
+### 7. The Valley School
+- **Location:** KFI, Thatguni
+- **Established:** 1978
+- **Grades:** Class 4 to Class 12
+- **Fee Range:** ₹1,50,000 - ₹2,50,000 per annum
+- **Highlights:** Krishnamurti Foundation school, nature-integrated learning
+
+### 8. Vibgyor High School
+- **Location:** Multiple locations (Marathahalli, Bannerghatta, etc.)
+- **Grades:** Pre-KG to Class 12
+- **Fee Range:** ₹1,40,000 - ₹2,00,000 per annum
+- **Highlights:** Modern infrastructure, activity-based learning
+
+### 9. Presidency School
+- **Location:** RT Nagar, Bangalore North
+- **Established:** 1967
+- **Grades:** Pre-KG to Class 12
+- **Fee Range:** ₹80,000 - ₹1,20,000 per annum
+- **Highlights:** Affordable quality education, good teacher-student ratio
+
+### 10. Sri Kumaran Children's Home (SKCH)
+- **Location:** Malleshwaram
+- **Established:** 1976
+- **Grades:** LKG to Class 12
+- **Fee Range:** ₹60,000 - ₹90,000 per annum
+- **Highlights:** Value-based education, strong in academics and arts
+
+### 11. Bethany High School
+- **Location:** Koramangala
+- **Established:** 1962
+- **Grades:** Class 1 to Class 12
+- **Fee Range:** ₹90,000 - ₹1,30,000 per annum
+- **Highlights:** Christian minority institution, excellent discipline
+
+### 12. Delhi Public School (DPS), Bangalore South
+- **Location:** Kanakapura Road
+- **Grades:** Pre-KG to Class 12
+- **Fee Range:** ₹1,40,000 - ₹1,80,000 per annum
+- **Highlights:** DPS curriculum, spacious campus, good sports facilities
+
+### 13. Ryan International School
+- **Location:** Multiple locations (Kundalahalli, Yelahanka, etc.)
+- **Grades:** Pre-KG to Class 12
+- **Fee Range:** ₹1,00,000 - ₹1,50,000 per annum
+- **Highlights:** Pan-India presence, consistent quality education
+
+### 14. Vidyashilp Academy
+- **Location:** Yelahanka
+- **Established:** 2004
+- **Grades:** Pre-KG to Class 12
+- **Fee Range:** ₹1,80,000 - ₹2,50,000 per annum
+- **Highlights:** Research-based learning, innovative teaching methods
+
+### 15. Indus International School
+- **Location:** Sarjapur
+- **Established:** 2003
+- **Grades:** Pre-KG to Class 12
+- **Fee Range:** ₹4,00,000 - ₹7,00,000 per annum
+- **Highlights:** IB and CBSE curricula, world-class facilities
+
+### 16. Kumarans
+- **Location:** Uttarahalli
+- **Grades:** LKG to Class 12
+- **Fee Range:** ₹55,000 - ₹85,000 per annum
+- **Highlights:** Affordable, good academic record
+
+### 17. New Horizon Public School
+- **Location:** Indiranagar
+- **Grades:** LKG to Class 12
+- **Fee Range:** ₹80,000 - ₹1,10,000 per annum
+- **Highlights:** Central location, balanced curriculum
+
+### 18. Harvest International School
+- **Location:** Sarjapur Road
+- **Grades:** Pre-KG to Class 12
+- **Fee Range:** ₹1,50,000 - ₹2,20,000 per annum
+- **Highlights:** Child-centric approach, green campus
+
+### 19. Sindhi High School
+- **Location:** Hebbal
+- **Established:** 1958
+- **Grades:** LKG to Class 12
+- **Fee Range:** ₹50,000 - ₹70,000 per annum
+- **Highlights:** Affordable, strong values, good academics
+
+### 20. Orchids The International School
+- **Location:** Multiple locations
+- **Grades:** Pre-KG to Class 12
+- **Fee Range:** ₹1,00,000 - ₹1,60,000 per annum
+- **Highlights:** Chain of schools, standardized quality
+
+### 21. Gear Innovative International School
+- **Location:** Doddakannelli, Sarjapur Road
+- **Grades:** Pre-KG to Class 12
+- **Fee Range:** ₹1,80,000 - ₹2,50,000 per annum
+- **Highlights:** Focus on innovation, excellent infrastructure
+
+### 22. Ekya Schools
+- **Location:** Multiple locations (JP Nagar, BTM, ITPL)
+- **Grades:** Pre-KG to Class 12
+- **Fee Range:** ₹1,60,000 - ₹2,20,000 per annum
+- **Highlights:** CMR Group schools, modern teaching methods
+
+### 23. Jain International Residential School
+- **Location:** Jakkasandra, Kanakapura Road
+- **Grades:** Class 4 to Class 12
+- **Fee Range:** ₹5,00,000 - ₹8,00,000 per annum (residential)
+- **Highlights:** Residential school, holistic development, international exposure
+
+### 24. The Brigade Schools
+- **Location:** Multiple locations (JP Nagar, Malleswaram, Electronic City)
+- **Grades:** Pre-KG to Class 12
+- **Fee Range:** ₹1,20,000 - ₹1,80,000 per annum
+- **Highlights:** Brigade Group schools, excellent infrastructure
+
+### 25. Candor International School
+- **Location:** Bannerghatta Road
+- **Grades:** Pre-KG to Class 12
+- **Fee Range:** ₹2,00,000 - ₹3,00,000 per annum
+- **Highlights:** Modern facilities, experiential learning
+
+## How to Choose the Right CBSE School
+
+### 1. Location and Commute
+Choose a school within a reasonable distance to minimize travel stress for your child.
+
+### 2. Budget Considerations
+CBSE school fees in Bangalore range from ₹50,000 to ₹8,00,000 per annum. Factor in additional costs like transport, uniforms, and activities.
+
+### 3. Infrastructure
+Visit the school to assess:
+- Classroom facilities
+- Science and computer labs
+- Library
+- Sports grounds
+- Safety measures
+
+### 4. Academic Performance
+Check the school's Class 10 and 12 board exam results and university admission records.
+
+### 5. Extra-curricular Activities
+Look for schools offering a balance of academics, sports, arts, and life skills.
+
+## Admission Process
+
+Most CBSE schools in Bangalore follow this admission timeline:
+- **October-November:** Application forms available
+- **December-January:** Admission tests and interviews
+- **February-March:** Results and fee payment
+
+## Conclusion
+
+Choosing the right CBSE school in Bangalore requires careful research and school visits. Consider your child's learning style, your budget, and the school's values before making a decision.
+
+## Need Help with School Admissions?
+
+LumiPath provides expert guidance for school admissions in Bangalore. Our counselors can help you shortlist schools based on your preferences and guide you through the admission process.
+    `,
+    author: "LumiPath Team",
+    date: "2025-01-03",
+    category: "School Admissions",
+    image: "https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=800&h=400&fit=crop",
+    readTime: "10 min read"
+  },
+  {
     id: "1",
     slug: "choosing-right-college-india",
     title: "How to Choose the Right College in India: A Complete Guide",
