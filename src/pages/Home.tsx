@@ -189,7 +189,7 @@ const Home = () => {
                   <CheckCircle className="h-6 w-6 text-accent mt-1 flex-shrink-0" />
                   <div>
                     <h3 className="font-semibold text-lg mb-1">Proven Framework</h3>
-                    <p className="text-muted-foreground">NIOS-based flexible curriculum and adapted assessments</p>
+                    <p className="text-muted-foreground">NIOS (National Institute of Open Schooling) is a government-recognized board, equivalent to CBSE, ICSE, and State Boards. Accepted in India and abroad, NIOS offers flexible learning with board exams conducted twice a year and the option to choose one or more subjects per attempt.</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
