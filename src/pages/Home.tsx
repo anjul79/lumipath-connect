@@ -19,8 +19,8 @@ const Home = () => {
   const services = [
     {
       icon: BookOpen,
-      title: "NIOS Framework Partnership",
-      description: "Seamless integration with schools under the NIOS framework for flexible, inclusive education.",
+      title: "NIOS Framework",
+      description: "NIOS (National Institute of Open Schooling) is a government-recognized board, equivalent to CBSE, ICSE, and State Boards. Accepted in India and abroad, NIOS offers flexible learning with board exams conducted twice a year and the option to choose one or more subjects per attempt.",
     },
     {
       icon: Users,
