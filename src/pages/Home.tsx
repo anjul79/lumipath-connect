@@ -47,17 +47,17 @@ const Home = () => {
       rating: 5,
     },
     {
-      name: "Vinod Nair",
-      role: "Parent",
-      content:
-        "As Aristotle once said, Those who educate children well are more to be honored than they who produce them for these only gave them life, those the art of living well. Ms. Kirti embodies this timeless wisdom in the most remarkable way. She is not only an enabler of learning but also a compassionate guide who consistently goes above and beyond to nurture the holistic well-being of every child under her care. A highly accomplished and seasoned educator, as well as an insightful life coach, Ms. Kirti brings with her an impressive record of excellence in the field of education management. Her teaching style is a rare blend of intellectual rigor, emotional intelligence, and heartfelt empathy qualities that are often missing in today's fast-paced educational landscape. In every sense, Ms. Kirti represents the ideal teacher, one who shapes not only bright minds but also compassionate, capable, and well-rounded individuals.",
-      rating: 5,
-    },
-    {
       name: "Dr. Monalisha Sharma",
       role: "Special Educator",
       content:
         "I have had the privilege of working with Ms. Smita, who is an exceptionally committed educator. Her ability to support students, collaborate with staff and handle responsibilities with patience and professionalism is commendable. She brings empathy, expertise and consistency to her role, making a meaningful impact on both students and colleagues. I wish her the very best in this exciting new journey and look forward to seeing her ideas come to life.",
+      rating: 5,
+    },
+    {
+      name: "Vinod Nair",
+      role: "Parent",
+      content:
+        "As Aristotle once said, Those who educate children well are more to be honored than they who produce them for these only gave them life, those the art of living well. Ms. Kirti embodies this timeless wisdom in the most remarkable way. She is not only an enabler of learning but also a compassionate guide who consistently goes above and beyond to nurture the holistic well-being of every child under her care. A highly accomplished and seasoned educator, as well as an insightful life coach, Ms. Kirti brings with her an impressive record of excellence in the field of education management. Her teaching style is a rare blend of intellectual rigor, emotional intelligence, and heartfelt empathy qualities that are often missing in today's fast-paced educational landscape. In every sense, Ms. Kirti represents the ideal teacher, one who shapes not only bright minds but also compassionate, capable, and well-rounded individuals.",
       rating: 5,
     },
   ];
