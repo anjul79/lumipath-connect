@@ -71,7 +71,7 @@ Special education is the bridge that connects every child to their potential. At
     author: "LumiPath Team",
     date: "2025-01-03",
     category: "Newsletter",
-    image: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&h=400&fit=crop",
+    image: "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=800&h=400&fit=crop",
     readTime: "5 min read"
   },
   {
