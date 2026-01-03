@@ -467,61 +467,6 @@ LumiPath provides expert guidance for school admissions in Bangalore. Our counse
     readTime: "10 min read"
   },
   {
-    id: "1",
-    slug: "choosing-right-college-india",
-    title: "How to Choose the Right College in India: A Complete Guide",
-    excerpt: "Navigating the complex landscape of higher education in India can be overwhelming. Here's everything you need to know about making the right choice.",
-    content: `
-## Introduction
-
-Choosing the right college is one of the most important decisions a student and their family will make. With thousands of institutions across India offering various programs, the selection process can feel overwhelming.
-
-## Key Factors to Consider
-
-### 1. Accreditation and Recognition
-
-Always verify that the institution is recognized by UGC, AICTE, or relevant regulatory bodies. Accreditation ensures that your degree will be valid and recognized by employers.
-
-### 2. Course Curriculum and Faculty
-
-Research the course curriculum and faculty qualifications. Look for institutions that regularly update their syllabus to match industry requirements.
-
-### 3. Placement Records
-
-Examine the college's placement statistics carefully. Look beyond just the highest package offered and focus on:
-- Average placement percentage
-- Median salary offered
-- Types of companies that visit
-- Alumni network strength
-
-### 4. Infrastructure and Facilities
-
-Modern education requires modern facilities. Consider:
-- Library resources
-- Laboratory equipment
-- Sports facilities
-- Hostel accommodation
-- Internet connectivity
-
-### 5. Location and Accessibility
-
-The location affects both your learning experience and future opportunities. Cities with strong industry presence often provide better internship and networking opportunities.
-
-## Making Your Decision
-
-Create a shortlist of 5-7 colleges and visit each one if possible. Talk to current students and alumni to get honest feedback about their experiences.
-
-## Conclusion
-
-Take your time with this decision. The right college will not only provide quality education but also shape your personality, network, and career trajectory.
-    `,
-    author: "LumiPath Team",
-    date: "2025-01-02",
-    category: "College Admissions",
-    image: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=800&h=400&fit=crop",
-    readTime: "5 min read"
-  },
-  {
     id: "4",
     slug: "importance-career-counselling-students",
     title: "Why Career Counselling is Essential for Every Student",
