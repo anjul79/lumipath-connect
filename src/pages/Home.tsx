@@ -183,6 +183,13 @@ const Home = () => {
                     <p className="text-muted-foreground">Full alignment with NEP 2020 and RPwD Act 2016 requirements</p>
                   </div>
                 </div>
+                <div className="flex items-start space-x-3">
+                  <CheckCircle className="h-6 w-6 text-accent mt-1 flex-shrink-0" />
+                  <div>
+                    <h3 className="font-semibold text-lg mb-1">Sustainable Support</h3>
+                    <p className="text-muted-foreground">Long-term partnership approach, not just one-time training</p>
+                  </div>
+                </div>
               </div>
               <div className="space-y-6">
                 <div className="flex items-start space-x-3">
@@ -197,13 +204,6 @@ const Home = () => {
                   <div>
                     <h3 className="font-semibold text-lg mb-1">Student Empowerment</h3>
                     <p className="text-muted-foreground">Transforming Lives through comprehensive LumiPath Program</p>
-                  </div>
-                </div>
-                <div className="flex items-start space-x-3">
-                  <CheckCircle className="h-6 w-6 text-accent mt-1 flex-shrink-0" />
-                  <div>
-                    <h3 className="font-semibold text-lg mb-1">Sustainable Support</h3>
-                    <p className="text-muted-foreground">Long-term partnership approach, not just one-time training</p>
                   </div>
                 </div>
               </div>
