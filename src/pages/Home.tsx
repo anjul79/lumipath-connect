@@ -5,7 +5,7 @@ import { BookOpen, Users, Award, Heart, ArrowRight, CheckCircle, Star, Target, L
 import lumiPathLogo from "@/assets/lumipath-logo-transparent.png";
 import SEO from "@/components/SEO";
 import { useContactFormDialog } from "@/contexts/ContactFormDialogContext";
-import NewsletterSection from "@/components/NewsletterSection";
+
 const Home = () => {
   const { openContactDialog } = useContactFormDialog();
 
@@ -241,8 +241,6 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Newsletter Section */}
-      <NewsletterSection />
 
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-r from-primary to-secondary text-primary-foreground">
