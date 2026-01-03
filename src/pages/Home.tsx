@@ -238,7 +238,7 @@ const Home = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
-              Ready to Transform your child's education with LumPath!
+              Ready to Transform your child's education with LumiPath!
             </h2>
             <p className="text-xl mb-8 text-primary-foreground/90">
               Join us in creating an inclusive learning environment where every child can thrive.
