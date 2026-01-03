@@ -1,15 +1,17 @@
 # Hostinger-compatible .htaccess for React SPA
 # This file ensures proper routing, performance, and security
 
-# Force HTTPS (uncomment when SSL is enabled on Hostinger)
-# <IfModule mod_rewrite.c>
-#   RewriteCond %{HTTPS} off
-#   RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
-# </IfModule>
-
 <IfModule mod_rewrite.c>
   RewriteEngine On
   RewriteBase /
+  
+  # Force HTTPS
+  RewriteCond %{HTTPS} off
+  RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+  
+  # Canonical redirect: non-www to www
+  RewriteCond %{HTTP_HOST} ^lumipath\.in$ [NC]
+  RewriteRule ^(.*)$ https://www.lumipath.in/$1 [L,R=301]
   
   # Handle Authorization Header
   RewriteCond %{HTTP:Authorization} .
