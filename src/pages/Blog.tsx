@@ -1,11 +1,14 @@
 import { Link } from "react-router-dom";
 import { Card, CardContent, CardFooter, CardHeader } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Calendar, Clock, User } from "lucide-react";
+import { Calendar, Clock } from "lucide-react";
 import { blogPosts } from "@/data/blogPosts";
 import SEO from "@/components/SEO";
+import { useContactFormDialog } from "@/contexts/ContactFormDialogContext";
 
 const Blog = () => {
+  const { openContactDialog } = useContactFormDialog();
+
   return (
     <>
       <SEO
@@ -87,12 +90,12 @@ const Blog = () => {
           <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
             Our expert counsellors are here to help you navigate your educational journey.
           </p>
-          <Link
-            to="/contact"
+          <button
+            onClick={openContactDialog}
             className="inline-flex items-center justify-center rounded-md bg-primary px-6 py-3 text-sm font-medium text-primary-foreground hover:bg-primary/90 transition-colors"
           >
             Get Free Consultation
-          </Link>
+          </button>
         </div>
       </section>
     </>
